@@ -1,0 +1,22 @@
+name: exoplanet-dl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0.0
+  - numpy>=1.23.0
+  - scipy>=1.10.0
+  - pandas>=2.0.0
+  - scikit-learn>=1.2.0
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  - tabulate>=0.9.0
+  - tqdm>=4.65.0
+  - pip
+  - pip:
+      - lightkurve>=2.4.0
+      - astropy>=5.2.0
+      - astroquery>=0.4.6
+      - python-docx>=1.1.0
